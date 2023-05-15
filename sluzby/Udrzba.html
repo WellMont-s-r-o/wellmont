@@ -1,0 +1,154 @@
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../style.css" />
+    <title>Wellmont - Práce v exteriéri</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo-removebg-preview.png">
+    <script defer src="../app.js"></script>
+
+
+</head>
+
+<body>
+    <header class="headerSluzby" id="DOMOV">
+
+
+
+
+        <!-- https://teqqea.github.io/wellmont.github-io/ -->
+
+
+
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i id="smb" class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="../img/logo-removebg-preview.png" alt=""></label>
+
+            <ul id="ul">
+                <li><a class="active" href="../index.html#DOM">Domov</a></li>
+                <li><a href="../index.html#ONAS">O nás</a></li>
+                <li><a href="../sluzby.html">Služby</a></li>
+                <li><a href="../index.html#RP">Realizácia prác</a></li>
+                <li><a href="../index.html#FotoG">Fotogaléria</a></li>
+                <li><a href="../index.html#Contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        </div>
+
+
+        <div id="Sluzby" class="scroll-reveal left1 sluzby">
+
+            <h2 class="sluzbyH">Údržba</h2>
+            <div class="bigBox">
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"><img class="imageBox litle" src="../img/Strihanie.jpg" alt="image">
+                        <h3>Komplexná starostlivosť o vysadenú zeleň, rastliny a stromy</h3>
+                        <p>Strihanie, orezávanie, tvarovanie a hnojenie rastlín, kríkov a stromov</p>
+                    </a>
+                </div>
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"> <img class="imageBox litle"
+                            src="../img/Starostlivosť o trávniky.jpg" alt="image">
+                        <h3>Starostlivosť o trávniky</h3>
+                        <p>Kosenie, prerezávanie a vertikulácia trávnikov, hnojenie</p>
+                    </a>
+
+                </div>
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"><img class="imageBox litle" src="../img/Orezy a pílenie stromov.jpg"
+                            alt="image">
+                        <h3>Orezy a pílenie stromov</h3>
+                        <p>Rezy strovom vo výškach, orezávanie a skracovanie korún stromov</p>
+                    </a>
+
+                </div>
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"><img class="imageBox litle"
+                            src="../img/Kosenie a údržba zelene v areáloch.jpg" alt="image">
+                        <h3>Kosenie a údržba zelene v areáloch</h3>
+                        <p>Zabezpečujeme komlexnu starostrivost o zeleň v areáloch, kosenie trávnikov, odvoz a
+                            likvidacie odpadu, manuálne/strojové zametanie a čistenie zarkovísk a chodníkov,
+                            čistenie a zber lístia, odburiňovanie (chemické/ manuálne), komplexné čistenie po
+                            ukončení sezóny a iné.</p>
+                    </a>
+
+                </div>
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"><img class="imageBox litle" src="../img/odhŕňanie snehu.jpg"
+                            alt="image">
+                        <h3>Zimná údržba</h3>
+                        <p>24 hodinová pohotovosť, odhŕňanie snehu, vývoz snehu, posyp, sekanie ľadu, komplexné
+                            čistenie po ukončení sezóny</p>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer_hr">
+            <hr>
+        </div>
+        <div class="contacts_footer">
+            <ol class="footer_list">
+                <li class="footer_list_w">Kontaktujte nás telefonicky alebo <br> zanechajte požiadavku na webe.</li>
+                <li class="footer_list_w">+421-907-181-292</li>
+                <li class="footer_list_w">wellmont.sro@gmail.com</li>
+            </ol>
+        </div>
+
+        </div>
+
+
+        <div>
+            <script src="script1.js"></script>
+        </div>
+        </div>
+
+
+
+
+
+        <script>
+            const box = document.getElementById('ul');
+            const smb = document.getElementById('smb');
+            var burger = false;
+
+            box.addEventListener('click', () => {
+                if (window.innerWidth < 960) {
+                    document.getElementById("ul").style.opacity = "0%";
+                    burger = true;
+                }
+            }
+
+
+            );
+
+            if (burger = true) {
+                smb.addEventListener('click', () => {
+                    document.getElementById("ul").style.opacity = "100%";
+
+                }
+                );
+            }
+
+
+        </script>
+</body>
+
+</html>
