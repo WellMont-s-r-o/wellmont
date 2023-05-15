@@ -1,0 +1,155 @@
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../style.css" />
+    <title>Wellmont - Práce v exteriéri</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo-removebg-preview.png">
+    <script defer src="../app.js"></script>
+
+
+</head>
+
+<body>
+    <header lass="headerSluzby" id="DOMOV">
+
+
+
+
+        <!-- https://teqqea.github.io/wellmont.github-io/ -->
+
+
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i id="smb" class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="../img/logo-removebg-preview.png" alt=""></label>
+
+            <ul id="ul">
+                <li><a class="active" href="../index.html#DOM">Domov</a></li>
+                <li><a href="../index.html#ONAS">O nás</a></li>
+                <li><a href="../sluzby.html">Služby</a></li>
+                <li><a href="../index.html#RP">Realizácia prác</a></li>
+                <li><a href="../index.html#FotoG">Fotogaléria</a></li>
+                <li><a href="../index.html#Contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        </div>
+
+
+        <div id="Sluzby" class="scroll-reveal left1 sluzby">
+
+            <h2 class="sluzbyH">Upratovanie</h2>
+
+            <div class="bigBox">
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"><img class="imageBox litle"
+                            src="../img/Upratovanie areálov a objektov.jpg" alt="image">
+                        <h3>Upratovanie areálov a objektov</h3>
+                        <p>Starostlivosť o okolie objektu, pravidelné upratovacie služby v objektoch, rekreačných
+                            zariadeniach, hoteloch, administratívnych a vzdelávacích priestoroch</p>
+                    </a>
+                </div>
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"> <img class="imageBox litle"
+                            src="../img/Upratovanie priestorov v interiéri.jpg" alt="image">
+                        <h3>Upratovanie priestorov v interiéri</h3>
+                        <p>Vysávanie a úmývanie podláh, utieranie prachu a údržba nábytku, tepovanie, čistenie a
+                            dezinfekcia kúpelní a wc, čistenie obkalov, čistenie kuchynských zariadení a spotrebičov,
+                            umývanie okien a skiel a iné</p>
+                    </a>
+
+                </div>
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"><img class="imageBox litle" src="../img/Upratovanie po stavbách.jpg"
+                            alt="image">
+                        <h3>Upratovanie po stavbách</h3>
+                        <p>Čistenie okien po maľovaní, likvidácia stavebného odpadu, príprava priestorov pre kolaudáciu,
+                            zametanie, umývanie a iné</p>
+                    </a>
+
+                </div>
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"><img class="imageBox litle" src="../img/Upratovanie exteriérov.jpg"
+                            alt="image">
+                        <h3>Upratovanie exteriérov</h3>
+                        <p>Čistenie pozemkov, chodníkov, parkovísk, zber odpadu, komunálne čistenie</p>
+                    </a>
+
+                </div>
+
+                <div class="miniBox page">
+                    <a href="../index.html#Contact"><img class="imageBox litle"
+                            src="../img/Umývanie priemyselných budov.jpg" alt="image">
+                        <h3>Umývanie priemyselných budov</h3>
+                        <p>Strojové čistenie budov do výšky 20 metrov</p>
+                    </a>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="footer_hr">
+            <hr>
+        </div>
+        <div class="contacts_footer">
+            <ol class="footer_list">
+                <li class="footer_list_w">Kontaktujte nás telefonicky alebo <br> zanechajte požiadavku na webe.</li>
+                <li class="footer_list_w">+421-907-181-292</li>
+                <li class="footer_list_w">wellmont.sro@gmail.com</li>
+            </ol>
+        </div>
+
+        </div>
+        <div>
+
+            <script src="script1.js"></script>
+        </div>
+        </div>
+
+
+
+
+
+        <script>
+            const box = document.getElementById('ul');
+            const smb = document.getElementById('smb');
+            var burger = false;
+
+            box.addEventListener('click', () => {
+                if (window.innerWidth < 960) {
+                    document.getElementById("ul").style.opacity = "0%";
+                    burger = true;
+                }
+            }
+
+
+            );
+
+            if (burger = true) {
+                smb.addEventListener('click', () => {
+                    document.getElementById("ul").style.opacity = "100%";
+
+                }
+                );
+            }
+
+
+        </script>
+</body>
+
+</html>
