@@ -1,0 +1,127 @@
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Wellmont - Práce v exteriéri</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo-removebg-preview.png">
+    <script defer src="app.js"></script>
+
+
+</head>
+
+<body>
+    <header class="header1 sluzby">
+
+        <!-- https://teqqea.github.io/wellmont.github-io/ -->
+
+
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i id="smb" class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="img/logo-removebg-preview.png" alt=""></label>
+
+            <ul id="ul">
+                <li><a class="active" href="index.html#DOM">Domov</a></li>
+                <li><a href="index.html#ONAS">O nás</a></li>
+                <li><a href="sluzby.html">Služby</a></li>
+                <li><a href="index.html#RP">Realizácia prác</a></li>
+                <li><a href="index.html#FotoG">Fotogaléria</a></li>
+                <li><a href="index.html#Contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        </div>
+
+    </header>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+
+    </div>
+
+
+    <div id="Sluzby" class="scroll-reveal left1 sluzby">
+
+        <h2 class="sluzbyH">NAŠE SLUŽBY</h2>
+
+        <div class="bigBox">
+
+            <div class="miniBox">
+                <a class="more" href="sluzby/Stavebne-prace.html"><img class="imageBox" src="img/stavebne_prace.jpg"
+                        alt="">
+                    <h3>Stavebné práce</h3>
+                </a>
+
+            </div>
+
+            <div class="miniBox">
+                <a class="more" href="sluzby/Udrzba.html"><img class="imageBox" src="img/udrzba.jpg" alt="">
+                    <h3>Údržba</h3>
+                </a>
+
+            </div>
+
+            <div class="miniBox">
+                <a class="more" href="sluzby/Upratovanie.html"><img class="imageBox" src="img/upratovanie.jpg" alt="">
+                    <h3>Upratovanie</h3>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer_hr">
+            <hr>
+        </div>
+        <div class="contacts_footer">
+            <ol class="footer_list">
+                <li class="footer_list_w">Kontaktujte nás telefonicky alebo <br> zanechajte požiadavku na webe.</li>
+                <li class="footer_list_w">+421-907-181-292</li>
+                <li class="footer_list_w">wellmont.sro@gmail.com</li>
+            </ol>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+    <script>
+        const box = document.getElementById('ul');
+        const smb = document.getElementById('smb');
+        var burger = false;
+
+        box.addEventListener('click', () => {
+            if (window.innerWidth < 960) {
+                document.getElementById("ul").style.opacity = "0%";
+                burger = true;
+            }
+        }
+
+
+        );
+
+        if (burger = true) {
+            smb.addEventListener('click', () => {
+                document.getElementById("ul").style.opacity = "100%";
+
+            }
+            );
+        }
+
+
+    </script>
+</body>
+
+</html>
